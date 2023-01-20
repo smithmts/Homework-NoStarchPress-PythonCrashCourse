@@ -62,7 +62,22 @@ print("-----------")
 for language in set(favorite_languages.values()):
     print(language.title())
 
+print("-----------")
 # Sets are also defined by braces, but are not in key/value pairs.
 languages = {'python','ruby','python','c'}
-print("-----------")
 print(languages)
+
+print("-----------")
+# Nesting lists in a dictionary
+
+favorite_languages = {
+        'jen': ['python','ruby'],
+        'sarah': ['c'],
+        'edward': ['ruby','go'],
+        'phil': ['python','haskell'],
+        }
+
+for name, languages in favorite_languages.items():
+    print(f"\n{name.title()}'s favorite langes are:")
+    for language in languages:
+        print(f"\t{language.title()}")
