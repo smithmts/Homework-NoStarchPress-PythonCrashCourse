@@ -17,7 +17,7 @@ users = {
 # Use for loop to setup variables, and then print
 
 for username, user_info in users.items():
-    print("\nUsername: {username}")
+    print(f"\nUsername: {username}")
     full_name = f"{user_info['first']} {user_info['last']}"
     location = user_info['location']
     print(f"\tFull name: {full_name.title()}")
