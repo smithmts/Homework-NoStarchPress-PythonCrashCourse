@@ -31,3 +31,6 @@ for username, user_info in users.items():
     roles = user_info['roles']
     print(f"\tFull name: {full_name.title()}")
     print(f"\tActive: {user_info['active'].title()}")
+    print(f"\tRoles:")
+    for role in roles:
+        print(f"\t\t{role}")
