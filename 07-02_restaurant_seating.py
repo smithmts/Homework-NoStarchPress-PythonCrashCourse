@@ -4,7 +4,6 @@
 # ready.
 
 people_count = input("Please enter the number of people in your group: ")
-
 people_count = int(people_count)
 
 if people_count >= 8:
