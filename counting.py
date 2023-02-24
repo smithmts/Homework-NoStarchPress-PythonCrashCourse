@@ -1,6 +1,6 @@
 # Chapter 7
 
-# while loops.
+# `while` loops.
 
 current_number = 1
 
@@ -11,10 +11,18 @@ while current_number <= 5:
 
 print("...")
 
-# Using a break
+# Using a `continue` break
 
 current_number = 0
 
-while current_number > 10:
+while current_number < 10:
     current_number += 1
-    if 
+    if current_number % 2 == 0:
+        continue
+    print(current_number)
+
+# `continue` starts loop over at the beginning, skipping the rest.
+# current_number is still incremented because it preceeds the break,
+# but the print operation is skipped.
+
+# Always scrutanize `while` loops to make sure they are not infinate.
