@@ -5,8 +5,6 @@
 # the list using a while loop.
 # No instances of 'pastrami' should appear in finished_sandwitches.
 
-
-
 sandwitch_orders = ['turkey', 'pastrami', 'roast beef', 'pastrami', 'cuban', 'pastrami']
 finished_sandwitches = []
 
