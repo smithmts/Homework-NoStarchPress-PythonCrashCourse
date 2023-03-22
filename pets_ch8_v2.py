@@ -14,5 +14,6 @@ describe_pet(pet_name='willie')
 # Non-defaulted parameters are treated as positional.
 describe_pet('willie')
 
+# Equivalent functions
 # Can explicitly provide an argument other than the default.
 describe_pet(pet_name='harry', animal_type='hamster')
