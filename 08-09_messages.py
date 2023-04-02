@@ -9,9 +9,9 @@ messages = [
         'Pass a copy of a list to a function to prevent modification.'
         ]
 
-def print_messages(messages):
+def show_messages(messages):
     """Print all messages in a list"""
     for message in messages:
         print(message)
 
-print_messages(messages)
+show_messages(messages)
