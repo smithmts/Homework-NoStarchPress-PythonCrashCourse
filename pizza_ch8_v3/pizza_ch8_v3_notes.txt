@@ -1,0 +1,8 @@
+Chapter 8
+
+"Importing an Entire Module"
+Starting to work with modules.
+
+pizza.py contains make_pizza() function.
+
+making_pizzas.py imports the module and runs the code.
