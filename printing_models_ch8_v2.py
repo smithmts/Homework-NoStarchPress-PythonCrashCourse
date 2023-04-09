@@ -2,7 +2,7 @@
 
 # Function working with a list with modificaitons prevented.
 
-# Functions can remain unchanged.  
+# Functions can remain unchanged.
 def print_models(unprinted_designs, completed_models):
     """
     Simulate printing each design until none are left.
@@ -13,11 +13,13 @@ def print_models(unprinted_designs, completed_models):
         print(f"Printing model: {current_design}")
         completed_models.append(current_design)
 
+
 def show_completed_models(completed_models):
     """Show all the models that were printed."""
-    print(f"\nThe following models have been printed:")
+    print("\nThe following models have been printed:")
     for completed_model in completed_models:
         print(completed_model)
+
 
 unprinted_designs = ['phone case', 'robot pendant', 'dodecahedron']
 completed_models = []
