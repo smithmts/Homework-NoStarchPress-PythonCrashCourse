@@ -14,10 +14,11 @@ def build_person(first_name, last_name, age=None):
         person['age'] = age
     return person
 
+
 musician = build_person('jimi', 'hendrix', age=27)
 print(musician)
 
 # Book gives example with age provided via keyword argument, but
-# looked compatable with positional argument.  Tested/confirmed. 
+# looked compatable with positional argument.  Tested/confirmed.
 musician = build_person('jimi', 'hendrix', 27)
 print(musician)

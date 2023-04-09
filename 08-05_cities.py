@@ -8,6 +8,7 @@ def describe_city(city, country='the united states of america'):
     """Prints a city and the country it is in."""
     print(f"{city.title()} is in {country.title()}.")
 
+
 describe_city('san diego')
 
 describe_city('banff', 'canada')

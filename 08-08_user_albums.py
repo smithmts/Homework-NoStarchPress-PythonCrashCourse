@@ -8,10 +8,11 @@
 def make_album(album_name, artist):
     """Build a dictionary with album information"""
     album = {
-            'album_name' : album_name,
-            'artist' : artist,
+            'album_name': album_name,
+            'artist': artist,
             }
     return album
+
 
 while True:
     print("\nPlease provide information about an album")

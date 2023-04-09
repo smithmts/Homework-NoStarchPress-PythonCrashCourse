@@ -8,9 +8,12 @@ def build_profile(first, last, **user_info):
     user_info['last_name'] = last
     return user_info
 
-user_profile = build_profile('matthew', 'smith', location='imperial',
-                            favorite_color = 'grey',
-                            favorite_text_editor = 'neovim')
+
+user_profile = build_profile(
+            'matthew', 'smith', location='imperial',
+            favorite_color='grey',
+            favorite_text_editor='neovim')
+# In Activity 08-17, I found that I neglected to return after the
+# opening parenthesis for the definition line.
 
 print(user_profile)
-

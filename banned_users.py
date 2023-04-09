@@ -1,6 +1,6 @@
 # Chapter 5
 
-banned_users = ['andrew','carolina','david']
+banned_users = ['andrew', 'carolina', 'david']
 user = 'marie'
 
 # Check for value not in a list.

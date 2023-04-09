@@ -1,0 +1,37 @@
+-Choose any three programs you wrote for this chapter, and make sure
+they follow the styling guidelines described in this section.
+-Particularly since I have LSP going now, I am going to review all
+Done in chapter 8.
+-All activities have already been reviewed.
+
+[x] 08-16_imports
+[x] 08-15_printing_models
+[x] printing_models_ch8_v2.py
+[x] pizza_ch8_v3
+[x] formatted_name_ch8_v2.py
+[x] formatted_name.py
+[x] greeter_ch8.py
+[x] greeter_ch8_v2.py
+[x] person_ch8_v2.py
+[x] person.py
+[x] pets_ch8.py
+[x] pets_ch8_v2.py
+[x] pizza_ch8.py
+[x] pizza_ch8_v2.py
+[x] printing_models.py
+[x] toppings.py -Chapter 5, but did anyway :)
+[x] user_profile.py
+[x] 08-01_message.py
+[x] 08-02_favorite_book.py
+[x] 08-03_t-shirt.py
+[x] 08-04_large_shirts.py
+[x] 08-05_cities.py
+[x] 08-06_city_names.py
+[x] 08-07_album.py
+[x] 08-08_user_albums.py
+[x] 08-09_messages.py
+[x] 08-10_sending_messages.py
+[x] 08-11_archived_messages.py
+[x] 08-12_sandwiches.py
+[x] 08-13_user_profile.py
+[x] 08-14_cars.py

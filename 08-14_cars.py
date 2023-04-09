@@ -13,5 +13,6 @@ def make_car(manufacturer, model_name, **car_options):
     car_options['model_name'] = model_name
     return car_options
 
+
 new_car = make_car('hyundai', 'tuscon', color='silver', drivetrain='hybrid')
 print(new_car)
