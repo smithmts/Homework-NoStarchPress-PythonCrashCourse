@@ -31,7 +31,22 @@ class Dog:
         print(f"{self.name} rolled over!")
 
 
+# This creates an instance of `Dog` as defined by the `__init__`
+# method.  It is assigned to the variable `my_dog`.
 my_dog = Dog('Willie', 6)
 
 print(f"My dog's name is {my_dog.name}.")
 print(f"My dog is {my_dog.age} years old.")
+
+# Dot notation can be used to call methods against a class instance.
+my_dog.sit()
+my_dog.roll_over()
+
+print("...")
+
+# You can create multiple instances.
+your_dog = Dog('Lucy', 3)
+
+print(f"Your dog's name is {your_dog.name}.")
+print(f"Your dog is {your_dog.age} years old.")
+your_dog.sit()
