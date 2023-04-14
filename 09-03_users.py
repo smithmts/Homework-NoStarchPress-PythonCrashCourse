@@ -20,6 +20,7 @@ class User:
         self.location = location
 
     def describe_user(self):
+        """Summarize user details."""
         print(f"User: {self.username}")
         print(f"\tFirst Name: {self.first_name}")
         print(f"\tLast Name: {self.last_name}")
@@ -27,6 +28,7 @@ class User:
         print(f"\tLocation: {self.location}")
 
     def greet_user(self):
+        """Display a customized greeting to the user."""
         print(f"Hello {self.first_name}!")
 
 
