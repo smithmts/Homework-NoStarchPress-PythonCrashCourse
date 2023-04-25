@@ -32,7 +32,7 @@ class User:
 
 
 class Admin(User):
-    """Represent aspets of a user specific to an administrator."""
+    """Represent aspects of a user specific to an administrator."""
 
     def __init__(self, first_name, last_name, username, email_address,
                  location):
