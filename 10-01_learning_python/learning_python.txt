@@ -1,0 +1,3 @@
+In Python you can use `for`, `if/elif/else`, and `while` loops to conditionally run portions of your program.
+In Python you can create functions, classes, and child classes to avoid repeating code.
+In Python you can open files and run programs agains their contents.
