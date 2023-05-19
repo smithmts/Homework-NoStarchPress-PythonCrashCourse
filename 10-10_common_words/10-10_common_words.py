@@ -1,4 +1,5 @@
-files = ['1', '2', '3']
+files = ['dracula.txt', 'romeo_and_juliet.txt',
+         'the_picture_of_dorian_gray.txt']
 
 for file in files:
     try:
@@ -7,11 +8,11 @@ for file in files:
     except FileNotFoundError:
         print(f"{file} not found.")
     else:
-        count_1 = contents.lower().count('foo')  # word 1
-        count_2 = contents.lower().count('bar')  # word 2
-        count_3 = contents.count('The phrase')  # phrase
+        count_of = contents.lower().count(' of ')
+        count_to = contents.lower().count(' to ')
+        count_should_have = contents.count(' should have ')
 
-    print(count_1)
-    print(count_2)
-    print(count_3)
-    print("...")
+    print(file)
+    print(f"\tCount of word 'of': {count_of}")
+    print(f"\tCount of word 'to': {count_to}")
+    print(f"\tCount of phrase 'should have': {count_should_have}")
